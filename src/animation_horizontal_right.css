@@ -1,0 +1,83 @@
+@keyframes particleAnimationRight
+{
+    from {
+        left: -100px;
+    }
+    to {
+        left: calc( 100% + 100px );
+    }
+}
+
+.pvr{
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  width:0px;
+  height:1px;
+  background-color:black;
+  position:fixed;
+  animation-name:particleAnimationRight;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.pvr::before{
+  position:absolute;
+  display:block;
+  content:"";
+  width:100px;
+  right:0px;
+  top:0px;
+  height:1px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%,rgba(0, 0, 0, 0.4) 100%); 
+}
+.pvr-1{
+  animation-duration:10s;
+  animation-delay: 9s;
+  bottom:5%;
+}
+.pvr-2{
+  animation-duration:10s;
+  animation-delay: 8s;
+  bottom:15%;
+}
+.pvr-3{
+  animation-duration:10s;
+  animation-delay: 7s;
+  bottom:25%;
+}
+
+.pvr-4{
+  animation-duration:10s;
+  animation-delay: 6s;
+  bottom:35%;
+}
+
+.pvr-5{
+  animation-duration:10s;
+  animation-delay: 5s;
+  bottom:45%;
+}
+
+.pvr-6{
+  animation-duration:10s;
+  animation-delay: 4s;
+  bottom:55%;
+}
+
+.pvr-7{
+  animation-duration:10s;
+  animation-delay: 3s;
+  bottom:65%;
+}
+
+.pvr-8{
+  animation-duration:10s;
+  animation-delay: 2s;
+  bottom:75%;
+}
+
+.pvr-9{
+  animation-duration:10s;
+  animation-delay: 1s;
+  bottom:85%;
+}

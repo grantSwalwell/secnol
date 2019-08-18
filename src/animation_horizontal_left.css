@@ -1,0 +1,83 @@
+@keyframes particleAnimationLeft
+{
+    from {
+        right: -100px;
+    }
+    to {
+        right: calc(100% + 100px);
+    }
+}
+
+.pvl{
+  position:fixed;
+  right:0px;
+  bottom:0px;
+  width:0px;
+  height:1px;
+  background-color:black;
+  position:fixed;
+  animation-name:particleAnimationLeft;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.pvl::before{
+  position:absolute;
+  display:block;
+  content:"";
+  width:100px;
+  right:0px;
+  top:0px;
+  height:1px;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0) 0%,rgba(0, 0, 0, 0.4) 100%); 
+}
+.pvl-1{
+  animation-duration:10s;
+  animation-delay: 1s;
+  bottom:0%;
+}
+.pvl-2{
+  animation-duration:10s;
+  animation-delay: 2s;
+  bottom:10%;
+}
+.pvl-3{
+  animation-duration:10s;
+  animation-delay: 3s;
+  bottom:20%;
+}
+
+.pvl-4{
+  animation-duration:10s;
+  animation-delay: 4s;
+  bottom:30%;
+}
+
+.pvl-5{
+  animation-duration:10s;
+  animation-delay: 5s;
+  bottom:50%;
+}
+
+.pvl-6{
+  animation-duration:10s;
+  animation-delay: 6s;
+  bottom:60%;
+}
+
+.pvl-7{
+  animation-duration:10s;
+  animation-delay: 7s;
+  bottom:70%;
+}
+
+.pvl-8{
+  animation-duration:10s;
+  animation-delay: 8s;
+  bottom:80%;
+}
+
+.pvl-9{
+  animation-duration:10s;
+  animation-delay: 9s;
+  bottom:90%;
+}
