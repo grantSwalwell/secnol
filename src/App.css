@@ -5,23 +5,73 @@
 .App-logo {
   height: 70vmin;
   pointer-events: none;
+  margin-left: 100px;
 
 }
-
 
 
 h1 {
   display: inline;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: normal;
 }
 
 .App-header {
   background-color: #e2e2e2;
-  min-height: 100vh;
+  min-height: 10vh;
   display: block;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(18px + 2vmin);
   color: rgb(82, 75, 75);
 }
 
+.wedo {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: normal;
+  font-size: calc(10px + 2vmin);
+  color: rgb(82, 75, 75);
+  width: 60%;
+
+}
+
+.wefor {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: normal;
+  font-size: calc(10px + 2vmin);
+  color: rgb(82, 75, 75);
+  width: 60%;
+
+}
+
+.howwork {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: normal;
+  font-size: calc(10px + 2vmin);
+  color: rgb(82, 75, 75);
+  width: 60%;
+
+}
+
+.cashmoney {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: normal;
+  font-size: calc(10px + 2vmin);
+  color: rgb(82, 75, 75);
+  width: 60%;
+
+}
+
+.App-body {
+  background-color: #e2e2e2;
+  min-height: 90vh;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: normal;
+  font-size: calc(18px + 2vmin);
+  color: rgb(82, 75, 75);
+}
