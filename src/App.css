@@ -5,7 +5,8 @@
 .App-logo {
   height: 70vmin;
   pointer-events: none;
-  margin-left: 100px;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
@@ -30,46 +31,51 @@ h1 {
 .wedo {
   font-family: 'Courier New', Courier, monospace;
   font-weight: normal;
+  display: block;
+  padding: 10px 10px 25px 10px;
   font-size: calc(10px + 2vmin);
   color: rgb(82, 75, 75);
-  width: 60%;
+
 
 }
 
 .wefor {
   font-family: 'Courier New', Courier, monospace;
   font-weight: normal;
+  display: block;
+  padding: 10px 10px 10px 10px;
   font-size: calc(10px + 2vmin);
   color: rgb(82, 75, 75);
-  width: 60%;
+
 
 }
 
 .howwork {
   font-family: 'Courier New', Courier, monospace;
   font-weight: normal;
+  display: block;
+  padding: 10px 10px 25px 10px;
   font-size: calc(10px + 2vmin);
   color: rgb(82, 75, 75);
-  width: 60%;
+
 
 }
 
 .cashmoney {
   font-family: 'Courier New', Courier, monospace;
   font-weight: normal;
+  display: block;
+  padding: 10px 10px 25px 10px;
   font-size: calc(10px + 2vmin);
   color: rgb(82, 75, 75);
-  width: 60%;
+ 
 
 }
 
 .App-body {
   background-color: #e2e2e2;
   min-height: 90vh;
-  display: block;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  display: inline-block;
   font-family: 'Courier New', Courier, monospace;
   font-weight: normal;
   font-size: calc(18px + 2vmin);

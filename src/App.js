@@ -1,4 +1,7 @@
 import React from 'react';
+import Text from 'react-texty'
+// import the styles
+import 'react-texty/styles.css'
 import './App.css';
 import './animation_vertical_down.css'
 import './animation_vertical_up.css'
@@ -63,13 +66,15 @@ function App() {
       </header>
 
       <body className="App-body">
-      <img src={logo} className="App-logo" alt="logo" align="center"/>
-      <div align="left">What we do:</div>
+      <img src={logo} className="App-logo" alt="logo" />
+      <div margin="500px">What we do
+        
+      </div>
       <div className="wedo" align="center">
         Basically we mentor people in programming for reasonable 
         amounts of money. 
       </div>
-      <div align="left">Who we are for:</div>
+      <div>Who we are for</div>
       <div className="wedo" align="center">
         Our services are targeted specifically towards people 
         who find the material interesting and/or want to become
@@ -77,7 +82,7 @@ function App() {
         or for job security you would do best with a tutor for the
         former and a different major for the latter.
       </div>
-      <div align="left">How it works:</div>
+      <div>How it works</div>
       <div className="howwork" align="center">
         The process differs slightly depending on if the 
         student is in a class or learning independently.
@@ -91,7 +96,7 @@ function App() {
         Also while we are available on as needed basis it is
         strongly reccomended to stick to a weekly schedule. 
       </div>
-      <div align="left">Pricing:</div>
+      <div>Pricing</div>
       <div className="cashmoney" align="center">
         Pricing starts at 30$ an hour for scheduled sessions with a discount
         of 50$ for a two hour session. While some tutors/mentors
