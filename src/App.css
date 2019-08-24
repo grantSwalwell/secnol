@@ -13,6 +13,8 @@
 
 h1 {
   display: inline;
+  margin-left: auto;
+  margin-right: auto;
   font-family: 'Courier New', Courier, monospace;
   font-weight: normal;
 }
@@ -28,49 +30,27 @@ h1 {
   color: rgb(82, 75, 75);
 }
 
-.wedo {
+.heading
+{
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
   font-family: 'Courier New', Courier, monospace;
   font-weight: normal;
-  display: block;
-  padding: 10px 10px 25px 10px;
+}
+
+.info {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: normal;
+  display: block-inline;
+  width: 80%;
+  margin: auto;
   font-size: calc(10px + 2vmin);
   color: rgb(82, 75, 75);
 
 
 }
 
-.wefor {
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: normal;
-  display: block;
-  padding: 10px 10px 10px 10px;
-  font-size: calc(10px + 2vmin);
-  color: rgb(82, 75, 75);
-
-
-}
-
-.howwork {
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: normal;
-  display: block;
-  padding: 10px 10px 25px 10px;
-  font-size: calc(10px + 2vmin);
-  color: rgb(82, 75, 75);
-
-
-}
-
-.cashmoney {
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: normal;
-  display: block;
-  padding: 10px 10px 25px 10px;
-  font-size: calc(10px + 2vmin);
-  color: rgb(82, 75, 75);
- 
-
-}
 
 .App-body {
   background-color: #e2e2e2;

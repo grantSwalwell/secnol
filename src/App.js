@@ -1,7 +1,5 @@
 import React from 'react';
-import Text from 'react-texty'
 // import the styles
-import 'react-texty/styles.css'
 import './App.css';
 import './animation_vertical_down.css'
 import './animation_vertical_up.css'
@@ -66,46 +64,50 @@ function App() {
       </header>
 
       <body className="App-body">
-      <img src={logo} className="App-logo" alt="logo" />
-      <div margin="500px">What we do
-        
-      </div>
-      <div className="wedo" align="center">
-        Basically we mentor people in programming for reasonable 
-        amounts of money. 
-      </div>
-      <div>Who we are for</div>
-      <div className="wedo" align="center">
-        Our services are targeted specifically towards people 
-        who find the material interesting and/or want to become
-        good programmers. If you are looking just to pass a class
-        or for job security you would do best with a tutor for the
-        former and a different major for the latter.
-      </div>
-      <div>How it works</div>
-      <div className="howwork" align="center">
-        The process differs slightly depending on if the 
-        student is in a class or learning independently.
-        For the former we follow course content with 
-        supplemental material and examples. For the latter
-        we follow a custom lesson plan tailored to the 
-        student. In either case we start out with an 
-        in person interview to establish goals and expectations.
-        From then on we can work remotely or if the student prefers
-        in person given they a reasonable distance away. 
-        Also while we are available on as needed basis it is
-        strongly reccomended to stick to a weekly schedule. 
-      </div>
-      <div>Pricing</div>
-      <div className="cashmoney" align="center">
-        Pricing starts at 30$ an hour for scheduled sessions with a discount
-        of 50$ for a two hour session. While some tutors/mentors
-        charge 50$ an hour this pricing is selected one to make it 
-        accessible to college students paying for it themselves and two
-        because at this time we are teaching programming and not software engineering
-        (there is a difference), and 50$/hour is roughly the rate of a software
-        engineer. Payment accepted through cashapp or venmo.  
-      </div>
+
+        <img src={logo} className="App-logo" alt="logo" />
+
+        <section>
+          <div class="heading">What we do</div>
+          <div class="info" align="center">
+            <p>Basically we mentor people in programming for reasonable 
+            amounts of money.</p>
+          </div>
+          <div class="heading">Who we are for</div>
+          <div class="info">
+            <p>Our services are targeted specifically towards people 
+            who find the material interesting and/or want to become
+            good programmers. If you are looking just to pass a class
+            or for job security you would do best with a tutor for the
+            former and a different major for the latter.</p>
+            
+          </div>
+          <div class="heading">How it works</div>
+          <div class="info" align="center">
+            <p>The process differs slightly depending on if the 
+            student is in a class or learning independently.
+            For the former we follow course content with 
+            supplemental material and examples. For the latter
+            we follow a custom lesson plan tailored to the 
+            student. In either case we start out with an 
+            in person interview to establish goals and expectations.
+            From then on we can work remotely or if the student prefers
+            in person given they a reasonable distance away. 
+            Also while we are available on as needed basis it is
+            strongly reccomended to stick to a weekly schedule. </p>
+          </div>
+          <div class="heading">Pricing</div>
+          <div class="info">
+            <p>Pricing starts at 30$ an hour for scheduled sessions with a discount
+            of 50$ for a two hour session. While some tutors/mentors
+            charge 50$ an hour this pricing is selected one to make it 
+            accessible to college students paying for it themselves and two
+            because at this time we are teaching programming and not software engineering
+            (there is a difference), and 50$/hour is roughly the rate of a software
+            engineer. Payment accepted through cashapp or venmo. </p>
+          </div>
+
+      </section>
       </body>
     </div>
   );
