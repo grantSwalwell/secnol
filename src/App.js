@@ -1,10 +1,7 @@
 import React from 'react';
+import Collapsible from 'react-collapsible';
 // import the styles
 import './App.css';
-import './animation_vertical_down.css'
-import './animation_vertical_up.css'
-import './animation_horizontal_right.css'
-import './animation_horizontal_left.css'
 import logo from './logo.png';
 
 
@@ -12,76 +9,46 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      
-       
-        
         <h1>
           Secret Knowledge Mentoring
-        </h1>
-       
-       
-
-        <div class="pvd pvd-1"></div>
-        <div class="pvd pvd-2"></div>
-        <div class="pvd pvd-3"></div>
-        <div class="pvd pvd-4"></div>
-        <div class="pvd pvd-5"></div>
-        <div class="pvd pvd-6"></div>
-        <div class="pvd pvd-7"></div>
-        <div class="pvd pvd-8"></div>
-        <div class="pvd pvd-9"></div>
-
-        <div class="pvu pvu-1"></div>
-        <div class="pvu pvu-2"></div>
-        <div class="pvu pvu-3"></div>
-        <div class="pvu pvu-4"></div>
-        <div class="pvu pvu-5"></div>
-        <div class="pvu pvu-6"></div>
-        <div class="pvu pvu-7"></div>
-        <div class="pvu pvu-8"></div>
-        <div class="pvu pvu-9"></div>
-
-        <div class="pvr pvr-1"></div>
-        <div class="pvr pvr-2"></div>
-        <div class="pvr pvr-3"></div>
-        <div class="pvr pvr-4"></div>
-        <div class="pvr pvr-5"></div>
-        <div class="pvr pvr-6"></div>
-        <div class="pvr pvr-7"></div>
-        <div class="pvr pvr-8"></div>
-        <div class="pvr pvr-9"></div>
-
-        <div class="pvl pvl-1"></div>
-        <div class="pvl pvl-2"></div>
-        <div class="pvl pvl-3"></div>
-        <div class="pvl pvl-4"></div>
-        <div class="pvl pvl-5"></div>
-        <div class="pvl pvl-6"></div>
-        <div class="pvl pvl-7"></div>
-        <div class="pvl pvl-8"></div>
-        <div class="pvl pvl-9"></div>
-        
+        </h1> 
       </header>
 
       <body className="App-body">
 
         <img src={logo} className="App-logo" alt="logo" />
 
-        <section>
-          <div class="heading">What we do</div>
+        
+
+        <section display="inline-block">
+
+        <div class="heading" align="center">Learn to code, the right way.</div>
+
+        <Collapsible trigger="Services" 
+          triggerClassName="CustomTriggerCSS" 
+          triggerOpenedClassName="CustomTriggerCSS--open"
+          contentOuterClassName="CustomOuterContentCSS"
+          contentInnerClassName="CustomInnerContentCSS">
           <div class="info" align="center">
-            <p>Basically we mentor people in programming for reasonable 
-            amounts of money.</p>
+            <p>hello world</p>
           </div>
-          <div class="heading">Who we are for</div>
-          <div class="info">
-            <p>Our services are targeted specifically towards people 
-            who find the material interesting and/or want to become
-            good programmers. If you are looking just to pass a class
-            or for job security you would do best with a tutor for the
-            former and a different major for the latter.</p>
+
+          <div align="left">
+            <Collapsible trigger="sub1"
+          triggerClassName="CustomTriggerSubCSS" 
+          triggerOpenedClassName="CustomTriggerSubCSS--open"
+          contentOuterClassName="CustomOuterContentCSS"
+          contentInnerClassName="CustomInnerContentCSS">
+          <div class="info" align="center">
+            <p>hello world</p>
+          </div>
+        </Collapsible>
+        </div>
+          
+        </Collapsible>
+
+        
             
-          </div>
           <div class="heading">How it works</div>
           <div class="info" align="center">
             <p>The process differs slightly depending on if the 
