@@ -29,27 +29,60 @@ function App() {
           triggerOpenedClassName="CustomTriggerCSS--open"
           contentOuterClassName="CustomOuterContentCSS"
           contentInnerClassName="CustomInnerContentCSS">
-          <div class="info" align="center">
-            <p>hello world</p>
+
+          <div><p> </p></div>
+
+          <div align="left">
+            <Collapsible trigger="Tutoring"
+              triggerClassName="CustomTriggerSubCSS" 
+              triggerOpenedClassName="CustomTriggerSubCSS--open"
+              contentOuterClassName="CustomOuterContentCSS"
+              contentInnerClassName="CustomInnerContentCSS">
+              <div class="info" align="center">
+                 <p>hello world</p>
+              </div>
+            </Collapsible>
           </div>
 
           <div align="left">
-            <Collapsible trigger="sub1"
-          triggerClassName="CustomTriggerSubCSS" 
-          triggerOpenedClassName="CustomTriggerSubCSS--open"
-          contentOuterClassName="CustomOuterContentCSS"
-          contentInnerClassName="CustomInnerContentCSS">
-          <div class="info" align="center">
-            <p>hello world</p>
+            <Collapsible trigger="Mentoring"
+              triggerClassName="CustomTriggerSubCSS" 
+              triggerOpenedClassName="CustomTriggerSubCSS--open"
+              contentOuterClassName="CustomOuterContentCSS"
+              contentInnerClassName="CustomInnerContentCSS">
+              <div class="info" align="center">
+                 <p>hello world</p>
+              </div>
+            </Collapsible>
           </div>
-        </Collapsible>
-        </div>
+
+          <div align="left">
+            <Collapsible trigger="Group Class"
+              triggerClassName="CustomTriggerSubCSS" 
+              triggerOpenedClassName="CustomTriggerSubCSS--open"
+              contentOuterClassName="CustomOuterContentCSS"
+              contentInnerClassName="CustomInnerContentCSS">
+              <div class="info" align="center">
+                 <p>hello world</p>
+              </div>
+            </Collapsible>
+          </div>
           
         </Collapsible>
 
-        
-            
-          <div class="heading">How it works</div>
+        <Collapsible trigger="Available Topics" 
+          triggerClassName="CustomTriggerCSS" 
+          triggerOpenedClassName="CustomTriggerCSS--open"
+          contentOuterClassName="CustomOuterContentCSS"
+          contentInnerClassName="CustomInnerContentCSS">
+        </Collapsible>
+
+        <Collapsible trigger="How it works" 
+          triggerClassName="CustomTriggerCSS" 
+          triggerOpenedClassName="CustomTriggerCSS--open"
+          contentOuterClassName="CustomOuterContentCSS"
+          contentInnerClassName="CustomInnerContentCSS">
+
           <div class="info" align="center">
             <p>The process differs slightly depending on if the 
             student is in a class or learning independently.
@@ -63,7 +96,17 @@ function App() {
             Also while we are available on as needed basis it is
             strongly reccomended to stick to a weekly schedule. </p>
           </div>
-          <div class="heading">Pricing</div>
+
+        </Collapsible>  
+
+        
+
+        <Collapsible trigger="Pricing" 
+          triggerClassName="CustomTriggerCSS" 
+          triggerOpenedClassName="CustomTriggerCSS--open"
+          contentOuterClassName="CustomOuterContentCSS"
+          contentInnerClassName="CustomInnerContentCSS">
+
           <div class="info">
             <p>Pricing starts at 30$ an hour for scheduled sessions with a discount
             of 50$ for a two hour session. While some tutors/mentors
@@ -73,6 +116,7 @@ function App() {
             (there is a difference), and 50$/hour is roughly the rate of a software
             engineer. Payment accepted through cashapp or venmo. </p>
           </div>
+        </Collapsible>
 
       </section>
       </body>
